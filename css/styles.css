@@ -86,11 +86,30 @@ section{
     background-color: var(--colorPrincipal);
 }
 
+.service{
+    display: grid;
+    grid-template-rows: 40% 40%;
+    row-gap: 2rem;
+}
+
+.service-content{
+    width: 40%; 
+}
+
+.service-icon{
+    font-size: 4rem;
+    background-color: var(--colorSecundario);
+    padding: 1.5rem;
+    border-radius: 50%;
+    color: var(--white);
+}
+
+
 
 /*Breakpoints*/
 @media screen and (min-width: 576px){
     .form-contacto{
-        width: 80%;
+        width: 90%;
     }
 }
 

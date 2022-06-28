@@ -1,0 +1,102 @@
+/*Variables*/
+:root{
+    --colorPrincipal: #F0A00E;
+    --colorSecundario: #ffbe33;
+    --colorTerciario: #fdefcf;
+    --colorCuarto: #b17300;
+    --white: #fff;
+}
+
+/*Globales*/
+section{
+    margin-bottom: 5rem;
+}
+
+/*Custom de estilos*/
+.navbar-brand-img{
+    width: 3rem;
+}
+
+.navbar-collapse{
+    justify-content: flex-end ;
+
+}
+
+.nav-item-tel{
+    margin-bottom: 0;
+}
+
+.fa-phone-flip{
+    color: var(--colorPrincipal);
+}
+
+.portada-img{
+    filter: drop-shadow(20px 0px 15px rgba(0, 0, 0, 0.7));
+}
+
+.form-contacto{
+    background-color: var(--colorPrincipal);
+    border-radius: 20px;
+    padding: 2rem;
+    width: 90%;
+}
+
+.form-input{
+    background-color: var(--colorSecundario);
+    color: var(--white);
+}
+
+.form-submit{
+    background-color: var(--colorTerciario);
+    color: var(--colorCuarto);
+}
+
+.form-input::placeholder{
+    color: var(--white);
+}
+
+.form-input[type=date]::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+}
+
+.form-input[type=date]{
+    color: var(--white);
+}
+
+.mascota{
+    height: 15rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.mascota-img{
+    object-fit: cover;;
+}
+
+.mascota::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 90%;
+    bottom: -66%;
+    border-radius: 50%;
+    background-color: var(--colorPrincipal);
+}
+
+
+/*Breakpoints*/
+@media screen and (min-width: 576px){
+    .form-contacto{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .nav-link.active{
+        border: 1px solid var(--colorPrincipal);
+        border-radius: 10px;
+    }
+}

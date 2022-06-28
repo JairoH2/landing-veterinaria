@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container ">
+    
+              <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo veterinaria" class="navbar-brand-img"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-bold" href="#">Pricing</a>
+                        </li>
+                        <li class="d-flex gap-2 py-2 align-items-center">
+                            <i class="fa-solid fa-phone-flip"></i>  
+                            <p class="nav-item-tel">23-2391-0232</p>
+                        </li>
+                    </ul>
+    
+              </div>
+              
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero - Introducción -->
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 p-lg-5 order-1 order-lg-0">
+                    <form class="form-contacto d-block mx-auto">
+                        <div class="row">
+                            <div class="col">
+                                <p class="text-center fs-2 fw-bold text-white">Hola👋 Nosotros amamos a tus mascotas</p>
+                                <p class="text-center fs-6 text-white"">Ingresa información básica a la consulta. Gracias!</p>
+                            </div>
+                            <input  class="border border-0 p-2 mb-3 col-12 rounded-2 fw-semibold form-input" type="text" placeholder="Nombre de la Mascota">
+                            <input  class="border border-0 p-2 mb-3 col-12 rounded-2 fw-semibold form-input" type="date" placeholder="Hola">
+                            <input  class="border border-0 p-2 mb-3 col-12 rounded-2 fw-semibold form-input" type="text" placeholder="Comentarios">
+                            <input  class="border border-0 p-2 mb-3 col-12 rounded-2 fw-semibold form-submit" type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-items-lg-center align-items-lg-center justify-content-center order-0 order-lg-1">
+                    <img src="assets/img/portada.png" alt="portada mascotas" class="img-fluid portada-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Tipos de mascotas a atender -->
+        <section class="container">   
+            <div class="row gy-4 gx-md-5 px-4 px-md-0">
+                <div class="col-12 col-md-4">
+                    <div class="col-4 mascota position-relative rounded-5">
+                        <img src="assets/img/gato.jpg" alt="" class="h-100 w-100 rounded-5 mascota-img"/>
+                        <p class="position-absolute bottom-0 start-50 translate-middle fs-4 mascota-texto mb-0 text-white fw-semibold">Cat</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="col-4 mascota position-relative rounded-5">
+                        <img src="assets/img/perro.jpg" alt="" class="h-100 w-100 rounded-5 mascota-img"/>
+                        <p class="position-absolute bottom-0 start-50 translate-middle fs-4 mascota-texto mb-0 text-white fw-semibold">Dog</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="col-4 mascota position-relative rounded-5">
+                        <img src="assets/img/pollos.jpg" alt="" class="h-100 w-100 rounded-5 mascota-img"/>
+                        <p class="position-absolute bottom-0 start-50 translate-middle fs-4 mascota-texto mb-0 text-white fw-semibold">Chicken</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://kit.fontawesome.com/7dd14a9268.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

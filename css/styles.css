@@ -12,6 +12,10 @@ section{
     margin-bottom: 5rem;
 }
 
+.section-services{
+    margin-bottom: 0;
+}
+
 /*Custom de estilos*/
 .navbar-brand-img{
     width: 3rem;
@@ -92,10 +96,6 @@ section{
     row-gap: 2rem;
 }
 
-.service-content{
-    width: 40%; 
-}
-
 .service-icon{
     font-size: 4rem;
     background-color: var(--colorSecundario);
@@ -111,11 +111,12 @@ section{
     .form-contacto{
         width: 90%;
     }
+
+
 }
 
-@media screen and (min-width: 992px){
-    .nav-link.active{
-        border: 1px solid var(--colorPrincipal);
-        border-radius: 10px;
+@media screen and (min-width: 768px){
+    .service-content{
+        width: 40%; 
     }
 }
